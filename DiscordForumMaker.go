@@ -12,11 +12,8 @@ import (
 	//"os"
 )
 
-const (
-	AUTHORISATION  string = "i have no clue what this is/ was"
-	BOT_AUTH       string = "bot secret"
-	APPLICATION_ID int    = 0 //application id 
-)
+const BOT_AUTH string = "bot secret"
+
 
 var PUBLIC_KEY *[]byte
 var CLIENT *http.Client
